@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_container1"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:background="#19003EF8">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/root_container2"
+        android:layout_width="185dp"
+        android:layout_height="200dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn30"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="4dp"
+                android:padding="0dp"
+                android:text="30"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="4dp"
+                android:padding="0dp"
+                android:text="3"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="4dp"
+                android:padding="0dp"
+                android:text="1"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="4dp"
+                android:padding="0dp"
+                android:text="4"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="4dp"
+                android:padding="0dp"
+                android:text="2"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="4dp"
+                android:padding="0dp"
+                android:text="5"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/root_container3"
+        android:layout_width="185dp"
+        android:layout_height="200dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:text="Time"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/buttonsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/close_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_close_24" />
+
+        <ImageView
+            android:id="@+id/reset_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_restart_alt_24" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
